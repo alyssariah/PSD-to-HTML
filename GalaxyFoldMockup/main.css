@@ -1,0 +1,21 @@
+main {
+    background-image: url("assets/BG.svg");
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "topLeft topRight"
+        "bottomLeft bottomRight";
+}
+.logo {
+    padding: 40px;
+    grid-area: bottomLeft;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.Plogo {
+    margin-bottom: 40px;
+}
