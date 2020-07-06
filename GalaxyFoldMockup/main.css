@@ -1,12 +1,36 @@
 main {
-    background-image: url("assets/BG.svg");
     height: 100vh;
+    background-image: url("assets/BG.svg");
+    background-position: center;
+    background-size: inherit;
     display: grid;
     grid-template-rows: 2fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-areas: 
-        "topLeft topRight"
-        "bottomLeft bottomRight";
+        "topLeft right"
+        "bottomLeft right";
+}
+.screen {
+    grid-area: right;
+    background-image: url("assets/Base.svg");
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.screenPic {
+    height: 95vh;
+    background-image: url("assets/Your Screen Here.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.notch {
+    display: flex;
 }
 .logo {
     padding: 40px;
@@ -19,3 +43,4 @@ main {
 .Plogo {
     margin-bottom: 40px;
 }
+
