@@ -1,36 +1,28 @@
+* {
+    box-sizing: border-box;
+}
 main {
     height: 100vh;
+    width: 100vw;
     background-image: url("assets/BG.svg");
     background-position: center;
-    background-size: inherit;
+    background-size: auto;
+    padding: 30px;
     display: grid;
-    grid-template-rows: 2fr 1fr;
-    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 30vw 70vw;
     grid-template-areas: 
         "topLeft right"
         "bottomLeft right";
 }
-.screen {
+.right {
     grid-area: right;
-    background-image: url("assets/Base.svg");
-    background-position: center;
-    background-size: contain;
-    height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-.screenPic {
-    height: 95vh;
-    background-image: url("assets/Your Screen Here.svg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.notch {
-    display: flex;
+.screen {
+    height: 100vh;
 }
 .logo {
     padding: 40px;
@@ -42,5 +34,9 @@ main {
 }
 .Plogo {
     margin-bottom: 40px;
+    width: 8vw;
+}
+.Mockup {
+    width: 25vw;
 }
 
