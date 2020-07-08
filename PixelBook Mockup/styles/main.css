@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    background-color: #8C8C8C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pixelbook {
+    width: 950px;
+}
+.pixel4 {
+    width: 290px;
+    margin-top: 60px;
+}

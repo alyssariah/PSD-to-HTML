@@ -1,3 +1,8 @@
 ## Original PSD file
 
-![original_pixelbook_psd](PixelBook Mockup/PixelBook Go and Pixel 4 XL.psd)
+![original_pixelbook_psd](images/original.png)
+
+## HTML Conversion
+
+![html_pixelbook](images/html.jpeg)
+
