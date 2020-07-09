@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    padding: 40px 20px 0px 20px;
+}
+main {
+    padding: 10px 20px;
+}
+nav {
+    margin: 15px 0 30px 0;
+}
+nav a {
+    font-family: 'Fira Mono',  Arial, sans-serif;
+}
+header {
+    text-align: center;
+}
+.home {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    border-bottom: 2px dotted black;
+}
+h1 {
+    font-size: 42px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+h1 span {
+    font-weight: bold;
+}
+.home p {
+    letter-spacing: 1px;
+    color: #2F58AE;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.homepic {
+    width: 90vw;
+    margin: 20px 0;
+}
+.shopBtn {
+    background-color: #EF817A;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h4 {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fira Mono',  Arial, sans-serif;
+}
+hr {
+    height: 4px;
+    background: black;
+    border: none;
+}
+section {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+section h2 {
+    font-size: 28px;
+}
+.bold {
+    font-weight: bold;
+}
+.author {
+    font-family: 'Fira Mono',  Arial, sans-serif;
+    margin: 20px 0;
+}
+.description {
+    margin: 30px 0;
+    color: grey;
+}
+.price {
+    font-family: 'Fira Mono',  Arial, sans-serif;
+}
+.price span {
+    color: grey;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+section img {
+    width: 90vw;
+    margin: 10px 0;
+}
+section h2, section p {
+    text-align: left;
+    margin: 10px 0;
+}
+section div {
+    text-align: left;
+}
+.limitedAuthor {
+    font-size: 12px;
+    margin: 20px 0;
+}
+.buyBtn {
+    background-color: black;
+    color: white;
+    margin: 20px 0;
+    padding: 12px 40px;
+    border: none;
+    font-size: 14px;
+}
+article {
+    color: white;
+    background-color: #EF817A;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+article div {
+    border: 2px solid white;
+    padding: 10px 
+}
+article h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+article p {
+    font-family: 'Fira Mono',  Arial, sans-serif;
+    font-size: 20px;
+    margin: 30px 0;
+}
+article button {
+    margin: 10px;
+    color: #EF817A;
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+}
+article span {
+    font-weight: bold;
+}
+.divider {
+    margin: 50px 0;
+}
+.iconList {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    margin: 10px 5px 40px 5px;
+}
+footer {
+    text-align: center;
+    color: silver;
+    background-color: #2F58AE;
+    padding: 30px 10px 10px 10px;
+    font-family: 'Fira Mono',  Arial, sans-serif;
+    font-size: 12px;
+}
+footer p {
+    margin-bottom: 5px;
+}
