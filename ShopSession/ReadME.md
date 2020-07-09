@@ -1,2 +1,2 @@
 # HTML Home View
-![homePageView]("images/home.jpeg)
+![homePageView]("images/home.jpeg")
