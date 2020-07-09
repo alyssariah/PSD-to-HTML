@@ -1,5 +1,5 @@
 ## PSD Home View
-![psdHomeView](images/psdhome.jpeg)
+![psdHomeView](images/homePSD.jpeg)
 
 ## HTML Home View
 ![homePageView](images/home.jpeg)
