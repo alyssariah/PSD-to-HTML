@@ -1,5 +1,5 @@
 ## PSD Home View
 ![psdHomeView](images/homePSD.jpeg)
 
-## HTML Home View
+## HTML Conversion
 ![homePageView](images/home.jpeg)
