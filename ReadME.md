@@ -17,6 +17,24 @@ It is important to slice the psd file to export layers as needed to make your HT
 * Always use standard fonts
 * Test browser compatibility throughout coding
 
-## HTML Components
+## HTML Components and tags
+* DOCTYPE and HTML tags
+* Head
+* Body tags
+    * Header 
+    * Headings (h1, h2, h3, ect.)
+    * Navigation (nav)
+    * Link (a)
+    * Main
+    * Div
+    * Section
+    * Article
+    * List
+    * Image
+    * Footer
 
-## Main CSS
+## About
+Each folder in the repository contains an HTML conversion of a PSD file. As you open the folder, there are picture previews of the psd file and html conversion. Each folder contains an index.html, styles folder, and images folder. 
+
+
+
