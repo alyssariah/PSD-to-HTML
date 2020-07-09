@@ -4,7 +4,7 @@
 header {
     padding: 40px 20px 0px 20px;
 }
-main {
+div {
     padding: 10px 20px;
 }
 nav {
@@ -19,6 +19,8 @@ header {
 .home {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    padding: 0;
+    margin: 10px 20px;
     border-bottom: 2px dotted black;
 }
 h1 {
@@ -87,14 +89,15 @@ section h2 {
 }
 section img {
     width: 90vw;
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 section h2, section p {
     text-align: left;
     margin: 10px 0;
 }
-section div {
+.bookInfo {
     text-align: left;
+    padding: 0;
 }
 .limitedAuthor {
     font-size: 12px;
@@ -112,7 +115,6 @@ article {
     color: white;
     background-color: #EF817A;
     padding: 10px;
-    margin: 10px;
     border: 2px solid white;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
@@ -142,14 +144,14 @@ article span {
     font-weight: bold;
 }
 .divider {
-    margin: 50px 0;
+    margin: 30px 20px;
 }
 .iconList {
     display: flex;
     justify-content: center;
 }
 .icon {
-    margin: 10px 5px 40px 5px;
+    margin: 10px 5px 20px 5px;
 }
 footer {
     text-align: center;
@@ -161,4 +163,148 @@ footer {
 }
 footer p {
     margin-bottom: 5px;
+}
+@media(min-width: 768px){
+    header{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    header img {
+        width: 30vw;
+        height: 3vh;
+    }
+    nav a {
+        margin: 0 5px;
+    }
+    .divider {
+        margin: 20px;
+    }
+    h1 {
+        font-size: 60px;
+        margin-top: 70px;
+    }
+    .home p {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .shopBtn {
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+    .home {
+        padding-bottom: 60px;
+    }
+    h4 {
+        margin-top: 60px;
+        font-size: 24px;
+    }
+    .bestSellers {
+        display: flex;
+        justify-content: space-around;
+    }
+    section {
+        text-align: left;
+        width: 40vw;
+    }
+    section h2 {
+        font-size: 30px;
+    }
+    section p {
+        font-size: 18px;
+    }
+    section img {
+        width: 40vw;
+    }
+    .price {
+        font-size: 22px;
+    }
+    .buyBtn {
+        padding: 15px 50px;
+        font-size: 20px;
+        margin: 40px 0;
+    }
+    article {
+        padding: 20px;
+    }
+    article div {
+        padding: 40px 30px ;
+    }
+    article h2 {
+        font-size: 44px;
+    }
+    article p {
+        font-size: 24px;
+    }
+    article button {
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+    .limitedOffers {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+@media(min-width: 1024px){
+    header {
+        padding: 40px 60px 0px 60px;
+    }
+    .divider {
+        margin: 30px 60px;
+    }
+    div {
+        padding: 10px 20px;
+    }
+    header img {
+        height: 5vh;
+        width: 20vw;
+    }
+    nav a:hover, button:hover, .icon:hover{
+        cursor: pointer;
+    }
+    h1 {
+        font-size: 100px;
+        line-height: 1.3em;
+        letter-spacing: 0px;
+        margin-top: 30px;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home p {
+        font-size: 38px;
+    }
+    .home img {
+        width: 60vw;
+    }
+    .shopBtn {
+        font-size: 24px;
+        padding: 20px 60px;
+    }
+    .bestSellers {
+        justify-content: center;
+    }
+    .bestSellers section {
+        width: 20vw;
+        margin: 0 10vw;;
+    }
+    section img {
+        width: 20vw;
+    }
+    .limitedOffers {
+        justify-content: space-around;
+    }
+    .limitedOffers section {
+        width: 20vw;
+    }
+    .limitedOffers section img {
+        width: 20vw;
+        height: auto;
+    }
+    footer a:hover {
+        cursor: pointer;
+    }
 }
