@@ -1,4 +1,4 @@
-## PSD HOme View
+## PSD Home View
 ![psdHomeView](images/psdHome.jpeg)
 
 ## HTML Home View
