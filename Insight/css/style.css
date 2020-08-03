@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header,
+.footer {
+    background: #15181f url(../images/bg-texture.jpg) repeat;
+    color: #fff;
+}
+.middle {
+    background: #fff;
+}
+.hero {
+    background-image: url(../images/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 465px;
+}
+.logo {
+    float: left;
+    margin: 19px 17px 0 0;
+}
+.slogan {
+    float: left;
+    margin-top: 22px;
+    font: italic 16px "Times New Roman", Times, Georgia, serif;
+    color: rgba(255, 255, 255, .35);
+}
+.nav {
+    float: right;
+}
+ul {
+    list-style-type: none;
+}
+.nav li {
+    float: left;
+    border-left: 1px solid #2c323d;
+}
+.nav a {
+    display: block;
+    line-height: 62px;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.nav a {
+    display: block;
+    line-height: 62px;
+    padding: 0 24px 0 53px;
+    color: #fff;
+}
+body {
+    font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #55606e;
+}
+.nav a:hover {
+    background-color: #13151a;
+}
+.nav a:after {
+    content: '';
+    background: url(../images/nav-icons.png) no-repeat;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
