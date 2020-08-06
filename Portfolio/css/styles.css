@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 100px 90vh;
+    grid-template-columns: 60vw 33vw 7vw;
+    grid-template-areas: 
+    "header carousel aside"
+    "home carousel aside";
+}
+header {
+    grid-area: header;
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+    align-items: center;
+    margin-left: 80px;
+}
+nav a {
+    text-decoration: none;
+    color: grey;
+    align-items: center;
+    font-size: 18px;
+}
+nav .active, nav a:hover, .underscore {
+    color: #FF9D54;
+}
+.underscore {
+    margin-left: 5px;
+}
+.logo {
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#littleSquare {
+    color: #FF9D54;
+    height: 10px;
+    width: 10px;
+    z-index: 4;
+    position: absolute;
+    top: 0;
+}
+.homePage {
+    grid-area: home;
+    font-family: 'Markazi Text', serif;
+    margin: 10vh 10vw 10vh 15vw;
+}
+h3 {
+    font-size: 30px;
+    color: grey;
+}
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+p {
+    font-size: 28px;
+    color: grey;
+    margin: 24px 0;
+}
+.carousel {
+    grid-area: carousel;
+}
+.slides {
+    text-align: center;
+    margin-top: 40px;
+}
+.slides img {
+    margin: 0 10px;
+}
+button {
+    border-radius: 40px;
+    padding: 20px 50px;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 20px 0;
+}
+.illustration {
+    width: 33vw;
+}
+aside {
+    display: flex;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    bottom: 150px;
+    right: -390px;
+}
+aside a {
+    color: grey;
+    margin: 0 30px;
+    text-decoration: none;
+}
