@@ -1,5 +1,5 @@
 ## PSD View 
-![psdHomeView](images/Hero.png)
+![psdHomeView](images/psd.png)
 
 ## HTML Conversion
 ![homePageView](images/html.jpeg)
