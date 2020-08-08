@@ -28,9 +28,49 @@ h1 {
 button {
     background-color: #2D59F0;
     color: black;
+    font-weight: bold;
+    font-size: 16px;
     border: 5px solid #C5F327;
     padding: 15px 30px;
 }
 button:hover {
     cursor: pointer;
+}
+main {
+    padding: 0 50px;
+    height: 100vh;
+    width: 50vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    top: 30vh;
+    letter-spacing: 4px;
+}
+.description {
+    display: flex;
+    margin: 50px 30px;
+}
+.description div {
+    margin-left: 30px;
+}
+img {
+    width: 400px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2)
+}
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+p {
+    line-height: 2em;
+    color: rgba(0,0,0,0.6);
+    font-size: 16px;
 }
