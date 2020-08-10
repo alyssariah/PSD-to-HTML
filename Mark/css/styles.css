@@ -4,8 +4,62 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("images/background.jpg");
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
-
+header {
+    text-align: right;
+    padding: 30px;
+}
+.navbar-toggler {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+    margin-left: 92.5vw;
+}
+.icons i {
+    margin: 6px 0;
+    font-size: 12px;
+}
+.icons i:hover {
+    cursor: pointer;
+}
+main {
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+    background-image: url("../images/background.jpg");
+    background-size: 100vw 90vh;
+}
+h1 {
+    font-size: 48px;
+    font-family: 'Caladea', serif;
+}
+h1 span {
+    color: #D63D37;
+}
+p {
+    font-family: aileron, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 180px;
+    font-size: 18px;
+    color: grey;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+nav a{
+    color: grey;
+    margin: 0 15px;
+}
 
