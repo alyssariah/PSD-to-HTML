@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    text-align: right;
+    padding: 30px;
+}
+.navbar-toggler {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+    margin-left: 92.5vw;
+}
+.icons i {
+    margin: 6px 0;
+    font-size: 12px;
+}
+.icons i:hover {
+    cursor: pointer;
+}
+img {
+    width: 500px;
+}
+h2 {
+    font-family: 'Caladea', serif;
+}
+p {
+    font-family: aileron, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
