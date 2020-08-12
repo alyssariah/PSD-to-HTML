@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #D63D37;
+}
+header {
+    text-align: right;
+    padding: 30px;
+}
+.navbar-toggler {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    margin-left: 92.5vw;
+}
+.icons i {
+    margin: 6px 0;
+    font-size: 12px;
+}
+.icons i:hover {
+    cursor: pointer;
+}
