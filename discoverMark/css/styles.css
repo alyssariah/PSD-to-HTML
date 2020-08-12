@@ -3,10 +3,12 @@
 }
 body {
     background-color: #D63D37;
+    text-align: right;
 }
 header {
     text-align: right;
     padding: 30px;
+    padding-bottom: 0;
 }
 .navbar-toggler {
     font-size: 1.7rem;
@@ -26,4 +28,71 @@ header {
 }
 .icons i:hover {
     cursor: pointer;
+}
+h2 {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Caladea', serif;
+    margin-right: 100px;
+}
+main {
+    margin: 0 200px;
+}
+h4 {
+    font-weight: bold;
+    color: #333333;
+    font-family: 'Caladea', serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+p {
+    font-family: aileron, sans-serif;
+    color: #333333;
+}
+.features{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "left right";
+}
+.features section:first-child{
+    grid-area: left;
+}
+.features section:nth-of-type(2){
+    grid-area: right;
+}
+section div {
+   margin: 30px;
+}
+.features i {
+    margin-top: 5px;
+    border: 3px solid white;
+    border-radius: 50px;
+    float: right;
+}
+.fa-fire{
+    padding: 10px 12px;
+    color: #D63D37;
+    background-color: white;
+}
+.fa-cog {
+    padding: 10px;
+    color: white;
+}
+.fa-bolt {
+    padding: 10px 13px;
+    color: white;
+}
+.fa-css3 {
+    padding: 10px;
+    color: white;
+}
+.fa-cloud {
+    padding: 10px 8px;
+    color: white;
+}
+h4, p {
+    margin-right: 70px;
 }
