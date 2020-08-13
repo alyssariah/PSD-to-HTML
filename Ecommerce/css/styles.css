@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+.top {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEF7F7;
+    font-size: 12px;
+    padding: 8px 200px;
+}
+.top div {
+    display: flex;
+    width: 22vw;
+    justify-content: space-around;
+}
+.top i {
+    font-size: 14px;
+}
+header, .banner {
+    font-family: 'Roboto', sans-serif; 
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    margin: 0 130px;
+}
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.cartSection i {
+    margin: 0 10px;
+}
+.banner {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/background.jpg);
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.banner div {
+    margin-left: 15vw;
+    text-align: center;
+}
+h1 {
+    font-size: 52px;
+    font-weight: bold;
+    width: 30vw;
+    line-height: 1.4em;
+    margin: 15px 0;
+}
+.banner p {
+    color: grey;
+}
+button { 
+    background-color: #FF5353;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 35px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
