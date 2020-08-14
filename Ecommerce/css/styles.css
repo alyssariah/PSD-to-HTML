@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 * {
     box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
 }
 .top {
     font-family: 'Roboto', sans-serif;
@@ -22,10 +26,13 @@ header, .banner {
     font-family: 'Roboto', sans-serif; 
 }
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: white;
 }
 nav {
     margin: 0 130px;
@@ -40,6 +47,9 @@ nav a {
 }
 .cartSection i {
     margin: 0 10px;
+}
+.cartSection i:hover{
+    cursor: pointer;
 }
 .banner {
     font-family: 'Roboto', sans-serif;
@@ -71,4 +81,89 @@ button {
     padding: 15px 35px;
     margin-top: 15px;
     border-radius: 2px;
+}
+button:hover{
+    cursor: pointer;
+}
+.featured {
+    text-align: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+h3 {
+    font-size: 28px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.productList {
+    display: flex;
+    justify-content: center;
+}
+.product {
+    margin: 0 20px;
+}
+.productPic {
+    background-color: #F1F2F1;
+    height: 400px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.product p {
+    color: grey;
+    margin: 10px 0;
+}
+section .price {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+article {
+    background-color: #F4EEE8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 650px;
+}
+article h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+article p {
+    color: grey;
+    font-size: 28px;
+    margin: 20px 0;
+}
+.pIcons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.product i {
+    margin: 50px 8px;
+}
+.product i:hover {
+    cursor: pointer;
+}
+.product .fa-eye, .product .fa-shopping-cart {
+    padding: 15px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.product .fa-heart{
+    background-color: #FF5353;
+    padding: 15px;
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.ratings i {
+    margin: 2px;
+    font-size: 10px;
+    color: #FF5353;
 }
