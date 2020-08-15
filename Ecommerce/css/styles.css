@@ -101,9 +101,10 @@ h3 {
 .productList {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .product {
-    margin: 0 20px;
+    margin: 30px 20px;
 }
 .productPic {
     background-color: #F1F2F1;
@@ -166,4 +167,46 @@ article p {
     margin: 2px;
     font-size: 10px;
     color: #FF5353;
+}
+.popular {
+    text-align: center;
+    margin: 120px 0;
+}
+.regProductPic {
+    width: 250px;
+    height: 350px;
+    background-color: #F1F2F1; 
+}
+.green {
+    background-color: #6EB340;
+}
+.popular img{
+    margin-top: 60px;
+    margin-right: 5px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+}
+.featuresBlock {
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 20px 40px;
+    margin: 0 10px;
+    text-align: center;
+}
+.icon {
+    width: 50px;
+    color: red;
+}
+h5 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.features p {
+    color: grey;
+    margin: 10px 0;
+}
+.trending {
+    text-align: center;
+    margin-top: 200px;
 }
