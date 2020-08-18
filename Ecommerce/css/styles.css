@@ -210,3 +210,121 @@ h5 {
     text-align: center;
     margin-top: 200px;
 }
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px 0;
+}
+.journal {
+    display: flex;
+    justify-content: center;
+    margin: 0 150px;
+    margin-bottom: 150px;
+}
+.article {
+    margin: 0 20px;
+}
+.articlePic {
+    width: 320px;
+    height: 300px;
+    background-color: #AFAFAF;
+}
+.date {
+    color: grey;
+    margin: 10px 0;
+    display: inline-block;
+}
+.red {
+    background-color: red;
+    width: 15px;
+    height: 8px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.description {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+hr {
+    color: grey;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 14px;
+    color: grey;
+}
+.followUs{
+    display: flex;
+    justify-content: center;
+}
+.box { 
+    margin: 0 10px;
+    width: 250px;
+    height: 250px;
+    background-color: #9A9A9A
+}
+.insta {
+    background-color: #E16868;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .fa-instagram {
+    font-size: 36px;
+    color: white;
+}
+footer {
+    margin-top: 80px;
+    background-color: #F7F1EB;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div {
+    margin: 0 50px;
+}
+footer h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0;
+}
+footer a {
+    color: grey;
+    display: block;
+    margin: 15px 0;
+    font-size: 16px;
+}
+footer img {
+    margin: 0 5px;
+}
+footer i {
+    padding: 10px 12px;
+    background-color: white;
+    margin: 0 2px;
+    text-align: left;
+}
+.copyright hr { 
+    margin: 0;
+    width: 70vw;
+    color: grey;
+}
+.copyright {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F7F1EB;
+}
+.copyright p {
+    margin: 20px;
+    color: grey;
+}
