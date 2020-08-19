@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+header img {
+    margin-right: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: silver;
+}
+nav a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: silver;
+    margin: 0 30px;
+}
+main {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 24.5vw 24.5vw 24.5vw 24.5vw;
+    grid-template-rows: 30vh 30vh 30vh 30vh;
+    grid-template-areas:
+    "main main main unmatched"
+    "main main main read"
+    "featured electronic electronic read"
+    "featured optimize SEO myspace";
+}
+.mainPhoto {
+    background-image: url('../images/Image.jpg');
+    background-size: cover;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 0 180px;
+
+}
+.mainPhoto h2 {
+    font-family: "Oswald", 'sans-serif';
+    font-weight: 500;
+    font-size: 28px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+.mainPhoto p {
+    font-family: "Lato", "sans-serif";
+    font-size: 16px;
+    line-height: 1.8em;
+    color: rgba(255,255,255, 0.8);
+}
+button {
+    background-color: #FF575C;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+.icons p {
+    font-size: 14px;
+}
+.icons i {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.unmatched {
+    background-image: url("../images/wheel.jpg");
+    background-size: 35vw 35vh;;
+    background-position: center;
+    grid-area: unmatched;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    text-align: center;
+}
+h2 {
+    font-family: "Lato", "sans-serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.tag {
+    position: absolute;
+    background-color: #FF575C;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    top: 20px;
+    left: 0;
+}
+.read {
+    grid-area: read;
+    background-color: #FF575C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.read h2 {
+    font-size: 22px;
+    margin: 0 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.read p {
+    line-height: 1.8em;
+    margin: 0 20px;
+    font-size: 16px;
+}
+.read button {
+    border: 2px solid white;
+    width: 15vw;
+    margin: 20px;
+}
+.electronic {
+    grid-area: electronic;
+    background-image: url("../images/electronics.jpg");
+    background-size: contain;
+    margin: 0 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.features {
+    grid-area: featured;
+    margin: 15px;
+}
+.optimize {
+    background-image: url("../images/optimize.jpg");
+    background-size: cover;
+    margin: 15px;
+    grid-area: optimize;
+
+}
+.seo {
+    background-image: url('../images/watch.jpg');
+    background-size: cover;
+    margin: 15px;
+    margin-left: 0;
+    grid-area: SEO;
+}
+.myspace {
+    background-image: url('../images/camera.jpg');
+    background-size: cover;
+    margin: 15px 0;
+    grid-area: "myspace";
+}
