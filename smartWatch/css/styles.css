@@ -11,7 +11,10 @@ header {
     height: 10vh;
     width: 100vw;
     position: fixed;
-    /* background-color: #31C6E3; */
+    z-index: 1;
+}
+.active {
+    background-color: rgba(49, 198, 227, 0.8);
 }
 header nav {
     display: flex;
@@ -67,7 +70,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0 250px;
-    height: 30vh;
+    height: 35vh;
 }
 .box {
     margin: 0 20px;
@@ -103,4 +106,57 @@ h1 {
 }
 .box p {
     color: grey;
+}
+.howItWorks{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-size: 36px;
+}
+h2 span {
+    color: #4D9EEF;
+}
+.howItWorks p {
+    margin-top: 40px;
+    color: grey;
+    width: 60vw;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.whyLove {
+    background-image: url("../images/waveBackground.jpg");
+    height: 60vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.quotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.quotes section {
+    width: 40vw;
+    margin-left: 100px;
+}
+.quotes span {
+    color: #4D9EEF; 
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    margin: 0 20px 50px 0;
+}
+.quotes p {
+    color: grey;
+}
+.quotes .name {
+    color: #4D9EEF; 
+    font-size: 18px;
 }
