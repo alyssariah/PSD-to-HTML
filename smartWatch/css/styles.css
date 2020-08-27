@@ -43,16 +43,18 @@ header img {
     border-radius: 30px;
     padding: 10px 40px;
 }
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .banner {
     padding-top: 10vh;
     background-image: url("../images/Background.jpg");
     background-position: center;
     background-position-y: 700px;
     height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 h1 {
     color: white;
@@ -66,9 +68,7 @@ h1 {
     width: 20vw;
 }
 .apps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     margin: 0 250px;
     height: 35vh;
 }
@@ -109,10 +109,6 @@ h1 {
 }
 .howItWorks{
     margin: 100px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 h2 {
     font-size: 36px;
@@ -132,9 +128,6 @@ h2 span {
     background-image: url("../images/waveBackground.jpg");
     height: 60vh;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-around;
 }
 .quotes {
@@ -159,4 +152,33 @@ h2 span {
 .quotes .name {
     color: #4D9EEF; 
     font-size: 18px;
+}
+.screenshots {
+    height: 90vh;
+}
+.screenshots h2 {
+    margin-bottom: 50px;
+}
+.screenGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screenGallery img {
+    width: 200px;
+    height: 410px;
+    margin: 20px;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.screenGallery img:hover{
+    cursor: pointer;
+}
+.screenGallery .imgActive {
+    width: 260px;
+    height: 500px;
+}
+.dots img {
+    margin: 10px 5px;
 }
