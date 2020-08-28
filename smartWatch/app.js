@@ -99,5 +99,14 @@ function changeImageOrder(){
     $('.screenGallery img').eq(2).addClass('imgActive')
     $('.screenGallery img').click(changeImageOrder)
 }
+
+function openText(){
+    $(this).find("h5").toggleClass("qActive")
+    $(this).find(".fa-caret-down").toggleClass("qActive")
+    $(this).find(".hideText").toggle()
+}
 const screenshot = $(".screenGallery img")
 screenshot.click(changeImageOrder)
+
+const question = $(".question")
+question.click(openText)

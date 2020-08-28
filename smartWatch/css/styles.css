@@ -182,3 +182,45 @@ h2 span {
 .dots img {
     margin: 10px 5px;
 }
+.faq {
+    height: 80vh;
+    background-image: url("../images/faqBackground.png");
+    background-position: center;
+    background-size: cover;
+}
+.questionContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.questions {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.question {
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 35vw;
+    padding: 20px;
+}
+.fa-caret-down {
+    float: right;
+}
+.fa-caret-down:hover {
+    cursor: pointer;
+}
+.question h5{
+   display: inline-block;
+}
+.question p {
+    margin-top: 20px;
+}
+.question .hideText {
+    display: none;
+}
+.qActive {
+    color: #4D9EEF;
+}
